@@ -35,3 +35,5 @@ class RoleViewSet(ModelViewSet):
 class PlayWith(ModelViewSet):
     queryset = PlayWith.objects.all()
     serializer_class = PlayWithSerializer
+
+# TODO agregar endpoint (APIView) para scrapear
